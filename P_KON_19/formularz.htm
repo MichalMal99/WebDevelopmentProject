@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Skontaktuj się z nami</title>
+<link rel="stylesheet" href="formularz.css">
+<script src="formularz.js"></script>
+</head>
+<body>
+
+
+<div class="wrapper">
+<h2>Skontaktuj się z nami</h2>
+<div id="error_message"></div>
+
+<form id="myform" onsubmit="return validation()">
+<div class="input_field">
+<input type="text" placeholder="Imię" id="name" required>
+</div>
+<div class="input_field">
+<input type="text" placeholder="Temat" id="subject">
+</div>
+<div class="input_field">
+<input type="text" placeholder="Telefon" id="phone">
+</div>
+<div class="input_field">
+<input type="text" placeholder="Email" id="email">
+</div>
+<div class="input_field">
+<textarea id="message" placeholder="Wiadomość"></textarea>
+</div>
+<div class="btn">
+<input type="submit">
+</div>
+
+
+</form>
+</div>
+
+
+
+</body>
+</html>
